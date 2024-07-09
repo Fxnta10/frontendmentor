@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+:root{
+    --Green: hsl(75, 94%, 57%)
+    --White: hsl(0, 0%, 100%)
+    --Grey: hsl(0, 0%, 20%) 
+    --Dark Grey: hsl(0, 0%, 12%)
+    --Off Black: hsl(0, 0%, 8%) 
+}
+body{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%) ;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+
+}
+
+body h2{
+    color: hsl(75, 94%, 57%);
+    font-family: 'Inter',sans-serif;
+    font-size: medium;
+
+}
+
+
+.container{
+    align-items: center;
+    margin: 10rem;
+    background-color:hsl(0, 0%, 12%);
+    height: auto;  
+    width:22rem;
+    padding:1.25rem;
+    border-radius: 25px;
+}
+.pics{
+    max-width: 50%;
+    height: auto;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.socialButton{
+
+    margin: 17px;
+    font-size: 15px;
+    width: 20rem;
+    height: 2.5rem;
+    display: block;
+    background-color:hsl(0, 0%, 20%) ;
+    padding: 10px 24px;
+    border-radius: 7px;
+    border: none;
+    color:hsl(0, 0%, 100%);
+    transition: all 0.3 ease;
+
+}
+
+.socialButton:hover{
+    background-color: hsl(75, 94%, 57%) ;
+    color:hsl(0, 0%, 12%);
+    transform: scale(1.1);
+    
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
